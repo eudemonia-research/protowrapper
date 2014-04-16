@@ -1,0 +1,6 @@
+package test;
+
+message Address {
+  required bytes ip = 1;
+  required int32 port = 2;
+}
